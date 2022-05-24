@@ -1,0 +1,22 @@
+{
+  "name": "lab3-cloud",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "collect.js": "^4.33.0",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.13.4",
+    "nodemon": "^2.0.16"
+  }
+}
