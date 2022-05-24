@@ -62,7 +62,6 @@ Resulting function for calculating word length and combining words with same len
 ```js
 function getWords(data, log = false) {
     return new Promise((resolve, reject) => {
-        const data = 'O Hi this a test Car River Deer Car Bear and 0123456789A';
         const collection = collect(data.split(' '));
         const result = {};
         
