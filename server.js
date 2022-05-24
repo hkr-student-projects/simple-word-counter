@@ -16,7 +16,7 @@ const MAX_LENGTH_WORD = 10;
 */
 function getWords(data, log = false) {
     return new Promise((resolve, reject) => {
-        const data = 'O Hi this a test Car River Deer Car Bear and 0123456789A';
+        //const data = 'O Hi this a test Car River Deer Car Bear and 0123456789A';
         const collection = collect(data.split(' '));
         const result = {};
         

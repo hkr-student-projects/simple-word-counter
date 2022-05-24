@@ -1,7 +1,7 @@
 const { post } = require('axios');
 
 const data = {
-    data: 'O Hi this a test Car River Deer Car Bear and'
+    data: 'O Hi this a test Car River Deer Car Bear and 0123456789A'
 };
 
 post('http://127.0.0.1:3000/getWordLengthFrequency', data)
